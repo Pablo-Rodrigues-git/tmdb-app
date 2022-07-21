@@ -1,0 +1,38 @@
+android {
+    compileSdk Versions.compileSdk
+
+    defaultConfig {
+        applicationId "com.training.ui.buildsrc"
+        minSdk Versions.minSdk
+        targetSdk Versions.targetSdk
+        versionCode Versions.versionCode
+        versionName Versions.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+dependencies {
+    //Core
+    implementation Libs.androidxCore
+    implementation Libs.androidxAppCompat
+    implementation Libs.googleMaterial
+    implementation Libs.androidConstraintLayout
+
+    testImplementation Libs.junit
+    androidTestImplementation Libs.androidxTestExtJunit
+    androidTestImplementation Libs.androidxEspresso
+}
