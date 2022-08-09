@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "tmdb-app"
 include ':app'
-include ':featureListMovie'
