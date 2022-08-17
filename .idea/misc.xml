@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/ic_favorite_border.xml" value="0.1265" />
         <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/ic_home.xml" value="0.1265" />
+        <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/ic_list.xml" value="0.1265" />
+        <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/ic_verified.xml" value="0.1265" />
         <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/outline_favorite_border_24.xml" value="0.1265" />
         <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/outline_filter_list_24.xml" value="0.1265" />
         <entry key="..\:/VCS/tmdbapp/app/src/main/res/drawable/outline_verified_20.xml" value="0.1265" />
