@@ -2,7 +2,7 @@ package com.pablo.study.tmdb_app.features.list.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pablo.study.tmdb_app.data.model.MovieResponse
+import com.pablo.study.tmdb_app.data.model.ListResponse
 import com.pablo.study.tmdb_app.features.list.model.repository.ListRepository
 import com.pablo.study.tmdb_app.utils.Status
 import kotlinx.coroutines.Dispatchers
@@ -39,7 +39,7 @@ class ListViewModel(
 }
 
 sealed class ListUiState {
-    data class Success(val list: List<MovieResponse>) : ListUiState()
+    data class Success(val list: ListResponse) : ListUiState()
     data class Error(val exception: String) : ListUiState()
     data class Loading(val isLoading: Boolean) : ListUiState()
 
