@@ -18,6 +18,7 @@ class ListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        viewModel.getAllMovies()
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
